@@ -79,42 +79,36 @@ The Power BI dashboards include:
 
   * Interactive Power BI dashboard summarizes all findings for easy stakeholder consumption.
 
-How to Run
+**How to Run**
 
-Clone the repository:
+1. Clone the repository:
 
-git clone <repository_url>
+            git clone <repository_url>
 
-Open Customer_Shopping_Behavior_Analysis.ipynb notebook
+2. Open Customer_Shopping_Behavior_Analysis.ipynb notebook
 
-This file contains:
+      This file contains:
+      
+        - Data Import
+      
+        - Data exploration
+      
+        - Data cleaning
 
-Data Import
+3. Connection to SQL Database
 
-Data exploration
+   * Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
 
-Data cleaning
+   * Create a database in SQL
 
-Connection to SQL Database
+   * Run Python code to load data into SQL database
 
-Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
+4. Open customer_behavior_sql_queries.sql
 
-Create a database in SQL
+   * Connect the SQL Database to Power BI
 
-Run Python code to load data into SQL database
+5. Open customer_behavior_dashboard.pbix
 
-Open customer_behavior_sql_queries.sql
+   * Create interactive dashboard in Power BI
 
-Answer Business Questions using SQL Queries
 
-Connect the SQL Database to Power BI
-
-Open customer_behavior_dashboard.pbix
-
-Create interactive dashboard in Power BI
-
-Create Project Report and Presentation
-
-Create project report
-
-Build presentation deck using Gamma AI
